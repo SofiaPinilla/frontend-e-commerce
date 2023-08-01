@@ -1,0 +1,22 @@
+@import "../../colors.scss";
+
+.message {
+  @extend %message-shared;
+}
+.success {
+  @extend %message-shared;
+  border-color: green;
+}
+
+//CSS
+// .message {
+//     border: 1px solid #ccc;
+//     padding: 10px;
+//     color: #333;
+//   }
+//   .success {
+//     border: 1px solid #ccc;
+//     padding: 10px;
+//     color: #333;
+//     border-color: green;
+//   }
