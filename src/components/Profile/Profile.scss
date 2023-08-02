@@ -7,7 +7,12 @@
   @extend %message-shared;
   border-color: green;
 }
-
+.order-card{
+    border: 1px solid pink;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
 //CSS
 // .message {
 //     border: 1px solid #ccc;
